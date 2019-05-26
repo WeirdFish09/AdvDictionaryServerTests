@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections.Generic;
 using System.Linq;
 using Xunit;
@@ -77,7 +77,7 @@ namespace AdvDictionaryServerTests
             {
                 new WordPrioritiesJSON()
                 {
-                    Phrase = new NativePhraseJson() {Phrase = "ðèáà"},
+                    Phrase = new NativePhraseJson() {Phrase = "Ñ€Ð¸Ð±Ð°"},
                     Word = new ForeignWordJSON(){Word = "fish"},
                     Language = new LanguageJSON(){Name = "english"},
                     Value = 0
@@ -127,14 +127,14 @@ namespace AdvDictionaryServerTests
                 new WordPrioritiesJSON()
                 {
                     Language = new LanguageJSON() {Name =  "english"},
-                    Phrase = new NativePhraseJson() {Phrase = "ðèáà"},
+                    Phrase = new NativePhraseJson() {Phrase = "Ñ€Ð¸Ð±Ð°"},
                     Word = new ForeignWordJSON(){Word = "fish"},
                     Value = 0
                 },
                 new WordPrioritiesJSON()
                 {
                     Language = new LanguageJSON() {Name = "english"},
-                    Phrase = new NativePhraseJson() {Phrase = "äâåð³"},
+                    Phrase = new NativePhraseJson() {Phrase = "Ð´Ð²ÐµÑ€Ñ–"},
                     Word = new ForeignWordJSON(){Word = "door"},
                     Value = 0
                 }
