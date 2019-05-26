@@ -126,7 +126,7 @@ namespace AdvDictionaryServerTests
             List<WordPrioritiesJSON> expectedWordPriorities = new List<WordPrioritiesJSON>(){
                 new WordPrioritiesJSON()
                 {
-                    Language = new LanguageJSON() {Name = "english"},
+                    Language = new LanguageJSON() {Name =  "english"},
                     Phrase = new NativePhraseJson() {Phrase = "риба"},
                     Word = new ForeignWordJSON(){Word = "fish"},
                     Value = 0
